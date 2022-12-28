@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 191, 213);
+}
+.offcanvas-body{
+    font-weight:lighter;
+    font-size: 15px;
+        padding: 5rem 60rem;
+         text-align: center; 
+        font-family:'Times New Roman', Times, serif;
+}
+.offcanvas-body button{
+    height: 5rem;
+    width: 30rem;
+}
+#Home .bgimg {
+    height: 100vh;
+    
+  }
+  
+   .jumbutton {
+    height: 20%;
+    width: 30%;
+    margin-top: 150px;
+    left: 20px;
+    line-height: 30px;
+    padding: 10px 30px;
+    position: absolute;
+  
+  }
+   .button .btn{
+    height: 5rem;
+    width: 30rem;
+    padding-top: 1.5rem;
+   }
+   .carousel-caption{
+    margin-bottom: 50px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+}
+ .carousel-inner .carousel-item img{
+    height: 30rem;
+    width: 30rem;
+    padding: 5px 10px;
+   
+   
+}
+
+.carousel-caption h1{
+    margin-bottom: 20px;
+    color:deeppink;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+}
+section{
+    padding-top: 95px;
+    padding-bottom:50px;
+}
+#Product .card{
+    border-color: darkslategray;
+    border-style: groove;
+    align-items: center;
+    text-align: center;
+    color:black;
+    background-color:limegreen;
+}
+#Product .card img{
+    height: 20rem;
+    width: 20rem;
+     border-style: groove;
+    border-color: darkcyan;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+}
+h1{
+    margin-bottom: 20px;
+    color:darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+}
+

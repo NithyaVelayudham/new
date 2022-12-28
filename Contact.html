@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>computer shop</title>
+
+    <!--BSP_3 CSS Links-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!--BSP_4 CSS Links-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <!--BSP_5 CSS Links-->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--Font Awesome Links-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+</head>
+<body >
+     <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="#">
+                    <img src="img/logo.png" class="responsive img-circle h-50  mt-3"
+                     alt="Computer" >
+                </a>
+                <a class="navbar-nav nav-link ml-auto" data-bs-toggle="offcanvas"
+                 href="#myoffcanvas" aria-controls="myoffcanvas">MENU</a>
+            <div class="offcanvas offcanvas-top bg-dark h-100" tabindex="-1"
+            id="myoffcanvas" aria-labelledby="myoffcanvas">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close bg-light text-reset mt-5  ml-auto " 
+            data-bs-dismiss="offcanvas" aria-label="close">
+        </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav nav-dark ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a></li>
+                      <hr class="w-100 text-white">
+                    <li class="nav-item">
+                    <a class="nav-link" href="About.html">ABOUTUS</a></li>
+                     <hr class="width-100 text-white">
+                     <li class="nav-item">
+                    <a class="nav-link" href="Components.html"> COMPONENTS</a></li>
+                     <hr class="width-100 text-white">
+                    <li class="nav-item">
+                    <a class="nav-link" href="Products.html">PRODUCTS</a></li>
+            <hr class="width-100 text-white"> <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">CONTACTS</a></li>
+                    <hr class="width-100 text-white">
+                    <div class="button" >
+                        <button type="button" class="btn btn-light ">GET START</button>
+                        <hr class="width-100  text-white">
+                        <button type="button" class="btn btn-outline-light">LOG IN</button>
+                    </div>
+                    
+                </ul>
+        </div>
+        </div>
+                </div>
+        </nav>
+         <!--login start-->
+         <section id="Contact">
+            <div class="container ">
+              
+            <h1 class="text-center  "> User Login </h1> 
+              <div class="row">
+                <div class="col-sm-8 mt-5">
+                    <img src="img/shop1.png" class="responsive img-rounded" alt="">
+                </div>
+                <!--form-->
+                <div class="col-sm-4 mt-5">
+                    <!--card-->
+                    <div class="card bg-secondary">
+                        <h2 class="card-header text-center">
+                          Contact page</h2>
+                        <div class="card-body">
+                            <form action="/" method="post">
+                                <!--name-->
+                                <div class="mb-3" >
+                                    <label for="fname">FullName:
+                                         <span class="text-danger">*</span></label>
+             <input type="text" id="fname" name="fname" 
+             class="form-control" placeholder="Enter your Name" required />
+                                </div>
+                                
+            <!--mobile-->
+                 <div class=" mb-3">
+                     <label for="mobile">Mobile Number:
+                        <span class="text-muted">(optional)</span>
+                     </label>
+                <input type="number" id="mobile" name="Number" 
+                class="form-control" placeholder="Enter your Phone Number"/>
+            </div>
+            <!--email-->
+            <div class="mb-3">
+                <label for="email">E-Mail:
+                    <span class="text-danger">*</span>
+                </label>
+                <input type="email" required name="email" id="email"
+                 placeholder="Enter your Mail" class="form-control">
+            </div>
+            <!--source-->
+            <div class="mb-3"  >
+                <label for="source">Shoping Source:</label>
+            <select  id="source" class="form-select"  >
+                <option value="select source">-- select source--</option>
+                <option value="google">Google</option>
+                <option value="youtube">Twitter</option>
+                <option value="facebook">Facebook</option>
+            </select>
+            </div>
+            <!--message-->
+            <div class="mb-3" >
+                <label for="message">Message:</label>
+                    <textarea name="message" id="message"
+                    class="form-control"  placeholder="enter any msg" rows="5" required>
+                        </textarea></div>
+                    
+            
+            <div class="mb-3">
+                <button type="submit" class="btn  btn-success "> submit</button>
+                <button type="reset" class="btn  btn-danger"> Reset</button>
+            </div>
+            
+            </form>
+            
+              </div>
+                    </div>
+            
+                </div>
+            
+            </div>
+                </div>
+            </div>
+            </section>
+        
+<!--end the login section-->
+<!--footer start the Contact section-->
+<section id="footer">
+    <footer class="footer ">
+              <div class="container">
+              
+                <h1 class="text-center mt-2 ">
+                      Contact </h1>
+                    
+                      <br>
+                      <div class="card  bg-secondary
+                       bg-opacity-10 text-center">
+                          <div class="card-header">
+                           <h2>Footer Page</h2>
+                          </div>
+                          <div class="card-body">
+                              <div class="col-sm-12">
+                                <div class="social-links">
+                      
+                                  <a href="#">
+                                     <i class="bi-google mr-2" role="img" aria-label="Google"></i>
+                                  </a>
+                                  <a href="#"><i class="bi-twitter mr-2" role="img" aria-label="twitter"></i></a>
+                                  <a href="#">
+                                     <i class="bi-facebook mr-2" role="img" aria-label="facebook"></i>
+                                 </a>
+                                 <a href="#"><i class="bi-instagram mr-2" role="img" aria-label="instagram"></i></a>
+                                                         </div>
+                                                         <br>
+                                
+                            <button type="button" class="btn btn-warning">
+                              <span class="glyphicon glyphicon-time"></span>
+                        <h4 class="card-title">Opening Time</h4>
+                        <h5 class="card-text">10.00am -to- 9.00pm</h5></button>
+                        <button type="button" class="btn btn-warning">
+                          <span class="glyphicon glyphicon-map-marker"></span>
+                         <h4 class="card-title">Shop Location</h4>
+                    <h5 class="card-text">Tamilnadu</h5></button>
+                   
+                              </div>
+                            </div>
+                          <div class="card-footer fixed-bottom">
+                            &Copyright @ 2022 By
+                               <span class="bg-light">Mr.WebDesigner</span>|All Reserved!
+                          </div>
+                        </div>
+              </div>
+              </footer>
+             </section>
+            <!--footer end--> 
+    
+    
+
+
+        <!--BSP_3 Js Script Links-->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+        <!--BSP_4 Js Script Links-->
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!--BSP_5 Js Script Links-->
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+    
+</body>
+</html>
